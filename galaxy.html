@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunita Williams: Defying Gravity</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: "Times New Roman", serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background: #0a0a1a url('https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?q=80&w=1000&auto=format&fit=crop') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            min-height: 100vh;
+        }
+        header {
+            background: rgba(0, 0, 20, 0.8);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            backdrop-filter: blur(5px);
+            position: relative;
+        }
+        .title-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+        h1 {
+            font-family: 'Lora', serif;
+            font-weight: 700;
+            font-size: 2.2rem;
+            margin: 0;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .rocket {
+            width: 50px;
+            height: 50px;
+            position: relative;
+            animation: fly 2s infinite alternate ease-in-out;
+        }
+        .rocket-body {
+            width: 20px;
+            height: 40px;
+            background: #ddd;
+            border-radius: 50% 50% 0 0;
+            position: absolute;
+            bottom: 0;
+            left: 15px;
+        }
+        .flame {
+            width: 10px;
+            height: 15px;
+            background: linear-gradient(to top, orange, red);
+            border-radius: 0 0 50% 50%;
+            position: absolute;
+            bottom: -15px;
+            left: 25px;
+            animation: burn 0.3s infinite alternate;
+        }
+        @keyframes fly {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-10px); }
+        }
+        @keyframes burn {
+            0% { height: 15px; opacity: 1; }
+            100% { height: 20px; opacity: 0.7; }
+        }
+        main {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 30px;
+            background: rgba(0, 0, 30, 0.7);
+            border-radius: 15px;
+            backdrop-filter: blur(8px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+        .section-title {
+            font-family: 'Lora', serif;
+            font-weight: 700;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            color: #ffffff;
+            margin: 30px 0 15px 0;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+            padding-bottom: 5px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #ffffff;
+        }
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background: rgba(0, 0, 20, 0.8);
+            backdrop-filter: blur(5px);
+        }
+        .youtube-link {
+            text-align: center;
+            margin: 30px 0;
+            font-size: 1.1rem;
+        }
+        .youtube-link a {
+            color: #ff6b6b;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .youtube-link a:hover {
+            color: #ff3838;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="title-container">
+            <h1>Sunita Williams: Defying Gravity and Inspiring Millions as She Conquers the Final Frontier</h1>
+            <div class="rocket">
+                <div class="rocket-body"></div>
+                <div class="flame"></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <p>Born on September 19, 1965 in Euclid, Ohio, Sunita Lyn Pandya Williams emerged as one of NASA's most accomplished astronauts, blending her unique multicultural heritage with an unquenchable thirst for exploration. The daughter of Dr. Deepak Pandya, a renowned Indian-American neuroanatomist, and Bonnie Pandya, a Slovenian-American, Sunita grew up in a household that valued both scientific curiosity and cultural diversity.</p>
+        
+        <div class="section-title">Early Life and Education: Building the Foundation</div>
+        <p>Sunita's journey to the stars began in Needham, Massachusetts, where she attended Needham High School, graduating in 1983. Even in her formative years, she exhibited a rare combination of discipline and ambition, traits that would later define her career.</p>
+        <ul>
+            <li><span class="highlight">U.S. Naval Academy (1987):</span> She earned a Bachelor of Science in Physical Science, setting the stage for her future in aviation and space.</li>
+            <li><span class="highlight">Florida Institute of Technology (1995):</span> She further honed her technical expertise with a <span class="highlight">Master of Science in Engineering Management</span>, preparing her for leadership roles in aerospace.</li>
+        </ul>
+
+        <div class="section-title">Military Career: Soaring Through the Skies</div>
+        <p>Before reaching for the stars, Sunita mastered the skies. Commissioned as an <span class="highlight">officer in the U.S. Navy</span>, she became a helicopter pilot, flying missions across the globe. Her exceptional skills led her to test pilot school, where she evaluated cutting-edge aircraft, logging over 3,000 flight hours in more than 30 different aircraft.</p>
+
+        <div class="section-title">NASA Selection and Spaceflight Achievements</div>
+        <p>In 1998, NASA selected Sunita as an astronaut candidate, recognizing her unparalleled aviation experience and technical brilliance. Her space career is studded with milestones:</p>
+
+        <div class="section-title">Record-Breaking Missions:</div>
+        <ul>
+            <li><span class="highlight">Expedition 14/15 (2006-2007):</span> She spent 195 days in space, setting a then-record for the longest single spaceflight by a woman.</li>
+            <li><span class="highlight">Seven Spacewalks:</span> With over 50 hours of extravehicular activity, she ranks among the most experienced spacewalkers in history.</li>
+            <li><span class="highlight">Expedition 32/33 (2012):</span> Returned to the International Space Station (ISS), further contributing to scientific research.</li>
+        </ul>
+
+        <div class="section-title">Beyond Space: A Legacy of Inspiration</div>
+        <p>Sunita Williams is more than an astronaut—she is a symbol of perseverance. An accomplished marathon runner, she even ran the Boston Marathon in space on the ISS treadmill. Her dedication to fitness, education, and STEM advocacy continues to inspire future generations.</p>
+
+        <div class="section-title">The Future: Returning to Space</div>
+        <p>Even today, Sunita remains at the forefront of space exploration. She is training for Boeing's Starliner mission, set to usher in a new era of commercial spaceflight.</p>
+        <p>"From the oceans to the heavens, Sunita Williams proves that with courage and curiosity, humanity's greatest adventures lie just beyond the horizon."</p>
+
+        <div class="youtube-link">
+            Watch Sunita Williams in space: <a href="https://youtu.be/tBVUTFPate0?si=NBNr0_8zyZFH6DlH" target="_blank">https://youtu.be/tBVUTFPate0?si=NBNr0_8zyZFH6DlH</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Space Exploration | Tribute to Sunita Williams</p>
+    </footer>
+</body>
+</html>
